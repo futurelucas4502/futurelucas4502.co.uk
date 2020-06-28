@@ -50,7 +50,7 @@ body {
 }
 
 .no-webp .hero-image1 {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./images/background.png");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/images/background.png");
   /* Add the blur effect */
   filter: blur(1px);
   -webkit-filter: blur(1px);
@@ -58,7 +58,7 @@ body {
 }
 
 .webp .hero-image1 {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./images/background.webp");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/images/background.webp");
   /* Add the blur effect */
   filter: blur(1px);
   -webkit-filter: blur(1px);
@@ -68,7 +68,7 @@ body {
 .no-webp .hero-image2 {
   background-size: auto 150vh;
   background-color: white;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./images/background_mobile.png");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/background_mobile.png");
   background-position: center;
   /* Add the blur effect */
   filter: blur(1px);
@@ -78,7 +78,7 @@ body {
 .webp .hero-image2 {
   background-size: auto 150vh;
   background-color: white;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./images/background_mobile.webp");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/images/background_mobile.webp");
   background-position: center;
   /* Add the blur effect */
   filter: blur(1px);
@@ -86,12 +86,12 @@ body {
 }
 
 /* .no-webp .hero-image3 {
-    background-image: url("./images/background3.png");
+    background-image: url("/images/background3.png");
     background-position: center;
 }
   
 .webp .hero-image3 {
-    background-image: url("./images/background3.webp");
+    background-image: url("/images/background3.webp");
     background-position: center;
 } */
 
