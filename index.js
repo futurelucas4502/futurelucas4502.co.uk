@@ -22,14 +22,14 @@ $(document).ready(function(){
     }, 10);
     }
     loadTimer()
-    
+    nav_relocate();
 });
 
 function nav_relocate() {
     var window_top = $(window).scrollTop();
     var bottom = $('#navbar-spacer').offset().top;
-    bottom -= 20;
-    if (window_top < bottom) {
+    bottom -= 40; // How close to get before changing colour
+    if (window_top < bottom) { // Checks if the navbar is getting close to the spacer and if it is it auto changes the text colour
         $('#nav').addClass('navbar-dark');
         $('#nav').removeClass('navbar-light');
         // console.log("true")
@@ -40,7 +40,10 @@ function nav_relocate() {
     }
 }
 
+$(window).scroll(nav_relocate); // runs check when scrolling this is a simple piece of code so its fine to add to the scroll as it doesnt cause any lag
+
 $(function() {
-    $(window).scroll(nav_relocate);
-    nav_relocate();
-});
+    $(document).click(function (event) {
+      $('.navbar-collapse').collapse('hide');
+    });
+  });

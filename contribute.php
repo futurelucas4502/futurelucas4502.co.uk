@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
 <?php include 'head.php';?>
-<link rel="preload" href="./images/contribute_background.png" as="image">
+<link rel="preload" href="/images/contribute_background.png" as="image">
 </head>
 <body>
 <?php include 'header.php';?>
-<img src="./images/contribute_background.png" class="cover-image"></img>
+<div class="cover-image"></div>
 <div style="z-index:1" class="main-text">
     <div class="col-md-12 text-center">
         <h1 style="margin-top:5rem">Welcome to Contributing!</h1>
