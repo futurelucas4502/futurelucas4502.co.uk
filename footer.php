@@ -37,9 +37,9 @@
           <div class="col-xs-6 col-md-3">
             <h6>Quick Links</h6>
             <ul class="footer-links">
-              <li><a href="./index#about">About Me</a></li>
-              <li><a href="./index#contact">Contact Me</a></li>
-              <li><a href="./contribute">Contribute</a></li>
+              <li><a href="/#about">About Me</a></li>
+              <li><a href="/#contact">Contact Me</a></li>
+              <li><a href="/contribute">Contribute</a></li>
             </ul>
           </div>
         </div>
