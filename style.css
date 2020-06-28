@@ -54,8 +54,6 @@ body {
   /* Add the blur effect */
   filter: blur(1px);
   -webkit-filter: blur(1px);
-  /* Full height */
-  height: 100%;
   background-position: center;
 }
 
@@ -64,8 +62,6 @@ body {
   /* Add the blur effect */
   filter: blur(1px);
   -webkit-filter: blur(1px);
-  /* Full height */
-  height: 100%;
   background-position: center;
 }
 
@@ -77,9 +73,6 @@ body {
   /* Add the blur effect */
   filter: blur(1px);
   -webkit-filter: blur(1px);
-  /* Full height */
-  height: 100%;
-  background-position: center;
 }
 
 .webp .hero-image2 {
@@ -90,9 +83,6 @@ body {
   /* Add the blur effect */
   filter: blur(1px);
   -webkit-filter: blur(1px);
-  /* Full height */
-  height: 100%;
-  background-position: center;
 }
 
 /* .no-webp .hero-image3 {
@@ -147,7 +137,7 @@ body {
 
 .main-text {
   position: absolute;
-  top: 150px;
+  top: 30vh;
   width: 100%;
   animation: slideUp 1.2s ease-in both;
   animation-delay: .5s;
